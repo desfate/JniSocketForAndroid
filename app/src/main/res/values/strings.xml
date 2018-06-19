@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Echo</string>
+    <string name="title_activity_echo_server">Echo Server</string>
+    <string name="port_edit">Port Number</string>
+    <string name="start_server_button">Start Server</string>
+    <string name="title_activity_echo_client">Echo Client</string>
+    <string name="ip_edit">IP Address</string>
+    <string name="start_client_button">Start Client</string>
+    <string name="sent_button">Send</string>
+    <string name="message_edit">Message</string>
+    <string name="title_activity_local_echo">Local Echo</string>
+    <string name="local_port_edit">Port Name</string>
+    <string name="send_button">Send Message</string>
+</resources>
