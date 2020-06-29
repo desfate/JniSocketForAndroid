@@ -1,0 +1,43 @@
+{
+  "stringTable": {
+    "0": "/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/.cxx/cmake/debug/x86",
+    "1": "--target=i686-none-linux-android21 --gcc-toolchain=/Volumes/Viper/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/Viper/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dworld_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "/Volumes/Viper/Android/sdk/ndk/21.3.6528147/build/cmake/android.toolchain.cmake",
+    "/Volumes/Viper/Android/sdk/ndk/21.3.6528147/build/cmake/platforms.cmake",
+    "/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/.cxx/cmake/debug/x86\" clean"
+  ],
+  "buildTargetsCommand": "/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/.cxx/cmake/debug/x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "world-Debug-x86": {
+      "buildCommand": "/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/.cxx/cmake/debug/x86\" world",
+      "buildType": "debug",
+      "toolchain": "3883160329",
+      "abi": "x86",
+      "artifactName": "world",
+      "files": [
+        {
+          "src": "/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/src/main/cpp/world.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/build/intermediates/cmake/debug/obj/x86/libworld.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "3883160329": {
+      "cppCompilerExecutable": "/Volumes/Viper/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

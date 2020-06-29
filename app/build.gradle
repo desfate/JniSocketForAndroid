@@ -1,15 +1,14 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 26
+    compileSdkVersion 30
     defaultConfig {
         applicationId "com.mtptwo.cppsupport"
-        minSdkVersion 17
-        targetSdkVersion 26
+        minSdkVersion 21
+        targetSdkVersion 30
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-
         ndk{
             moduleName "libEcho"
             abiFilters "armeabi-v7a","x86"
@@ -20,6 +19,7 @@ android {
                 cppFlags "-frtti -fexceptions"
             }
         }
+
     }
     buildTypes {
         release {
@@ -29,9 +29,10 @@ android {
     }
     externalNativeBuild {
         cmake {
-            path "CMakeLists.txt"
+            path file('CMakeLists.txt')
         }
     }
+    ndkVersion '21.3.6528147'
 }
 
 dependencies {
