@@ -1,7 +1,7 @@
 [
   {
     "level": "INFO",
-    "message": "Start JSON generation. Platform version: 21 min SDK version: x86",
+    "message": "Start JSON generation. Platform version: 19 min SDK version: x86",
     "file": "/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/CMakeLists.txt",
     "tag": "debug|x86"
   },
@@ -37,31 +37,25 @@
   },
   {
     "level": "INFO",
-    "message": "- expected json /Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/.cxx/cmake/debug/x86/android_gradle_build.json file is not present, will remove stale json folder",
+    "message": "- a dependent build file changed",
     "file": "/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/CMakeLists.txt",
     "tag": "debug|x86"
   },
   {
     "level": "INFO",
-    "message": "- missing previous command file /Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/.cxx/cmake/debug/x86/build_command.txt, will remove stale json folder",
+    "message": "  - /Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/CMakeLists.txt",
     "file": "/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/CMakeLists.txt",
     "tag": "debug|x86"
   },
   {
     "level": "INFO",
-    "message": "- command changed from previous, will remove stale json folder",
+    "message": "keeping json folder \u0027/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/.cxx/cmake/debug/x86\u0027 but regenerating project",
     "file": "/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/CMakeLists.txt",
     "tag": "debug|x86"
   },
   {
     "level": "INFO",
-    "message": "created folder \u0027/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/.cxx/cmake/debug/x86\u0027",
-    "file": "/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/CMakeLists.txt",
-    "tag": "debug|x86"
-  },
-  {
-    "level": "INFO",
-    "message": "executing cmake Executable : /Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/bin/cmake\narguments : \n-H/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app\n-DCMAKE_CXX_FLAGS\u003d-frtti -fexceptions\n-DCMAKE_FIND_ROOT_PATH\u003d/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/.cxx/cmake/debug/prefab/x86/prefab\n-DCMAKE_BUILD_TYPE\u003dDebug\n-DCMAKE_TOOLCHAIN_FILE\u003d/Volumes/Viper/Android/sdk/ndk/21.3.6528147/build/cmake/android.toolchain.cmake\n-DANDROID_ABI\u003dx86\n-DANDROID_NDK\u003d/Volumes/Viper/Android/sdk/ndk/21.3.6528147\n-DANDROID_PLATFORM\u003dandroid-21\n-DCMAKE_ANDROID_ARCH_ABI\u003dx86\n-DCMAKE_ANDROID_NDK\u003d/Volumes/Viper/Android/sdk/ndk/21.3.6528147\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/build/intermediates/cmake/debug/obj/x86\n-DCMAKE_MAKE_PROGRAM\u003d/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/bin/ninja\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_SYSTEM_VERSION\u003d21\n-B/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/.cxx/cmake/debug/x86\n-GNinja\njvmArgs : \n\n",
+    "message": "executing cmake Executable : /Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/bin/cmake\narguments : \n-H/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app\n-DCMAKE_CXX_FLAGS\u003d-frtti -fexceptions\n-DCMAKE_FIND_ROOT_PATH\u003d/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/.cxx/cmake/debug/prefab/x86/prefab\n-DCMAKE_BUILD_TYPE\u003dDebug\n-DCMAKE_TOOLCHAIN_FILE\u003d/Volumes/Viper/Android/sdk/ndk/21.3.6528147/build/cmake/android.toolchain.cmake\n-DANDROID_ABI\u003dx86\n-DANDROID_NDK\u003d/Volumes/Viper/Android/sdk/ndk/21.3.6528147\n-DANDROID_PLATFORM\u003dandroid-19\n-DCMAKE_ANDROID_ARCH_ABI\u003dx86\n-DCMAKE_ANDROID_NDK\u003d/Volumes/Viper/Android/sdk/ndk/21.3.6528147\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/build/intermediates/cmake/debug/obj/x86\n-DCMAKE_MAKE_PROGRAM\u003d/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/bin/ninja\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_SYSTEM_VERSION\u003d19\n-B/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/.cxx/cmake/debug/x86\n-GNinja\njvmArgs : \n\n",
     "file": "/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/CMakeLists.txt",
     "tag": "debug|x86"
   },
@@ -103,217 +97,7 @@
   },
   {
     "level": "INFO",
-    "message": "{\n  \"type\": \"configure\",\n  \"cacheArguments\": [\n    \"\",\n    \"-DCMAKE_CXX_FLAGS\\u003d-frtti -fexceptions\",\n    \"-DCMAKE_FIND_ROOT_PATH\\u003d/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/.cxx/cmake/debug/prefab/x86/prefab\",\n    \"-DCMAKE_BUILD_TYPE\\u003dDebug\",\n    \"-DCMAKE_TOOLCHAIN_FILE\\u003d/Volumes/Viper/Android/sdk/ndk/21.3.6528147/build/cmake/android.toolchain.cmake\",\n    \"-DANDROID_ABI\\u003dx86\",\n    \"-DANDROID_NDK\\u003d/Volumes/Viper/Android/sdk/ndk/21.3.6528147\",\n    \"-DANDROID_PLATFORM\\u003dandroid-21\",\n    \"-DCMAKE_ANDROID_ARCH_ABI\\u003dx86\",\n    \"-DCMAKE_ANDROID_NDK\\u003d/Volumes/Viper/Android/sdk/ndk/21.3.6528147\",\n    \"-DCMAKE_EXPORT_COMPILE_COMMANDS\\u003dON\",\n    \"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\\u003d/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/build/intermediates/cmake/debug/obj/x86\",\n    \"-DCMAKE_MAKE_PROGRAM\\u003d/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/bin/ninja\",\n    \"-DCMAKE_SYSTEM_NAME\\u003dAndroid\",\n    \"-DCMAKE_SYSTEM_VERSION\\u003d21\"\n  ]\n}\n",
-    "file": "/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/CMakeLists.txt",
-    "tag": "debug|x86"
-  },
-  {
-    "level": "INFO",
-    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working C compiler: /Volumes/Viper/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang\",\"type\":\"message\"}\n",
-    "file": "/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/CMakeLists.txt",
-    "tag": "debug|x86"
-  },
-  {
-    "level": "INFO",
-    "message": "Check for working C compiler: /Volumes/Viper/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
-    "file": "/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/CMakeLists.txt",
-    "tag": "debug|x86"
-  },
-  {
-    "level": "INFO",
-    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":33,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
-    "file": "/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/CMakeLists.txt",
-    "tag": "debug|x86"
-  },
-  {
-    "level": "INFO",
-    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working C compiler: /Volumes/Viper/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works\",\"type\":\"message\"}\n",
-    "file": "/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/CMakeLists.txt",
-    "tag": "debug|x86"
-  },
-  {
-    "level": "INFO",
-    "message": "Check for working C compiler: /Volumes/Viper/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works",
-    "file": "/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/CMakeLists.txt",
-    "tag": "debug|x86"
-  },
-  {
-    "level": "INFO",
-    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compiler ABI info\",\"type\":\"message\"}\n",
-    "file": "/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/CMakeLists.txt",
-    "tag": "debug|x86"
-  },
-  {
-    "level": "INFO",
-    "message": "Detecting C compiler ABI info",
-    "file": "/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/CMakeLists.txt",
-    "tag": "debug|x86"
-  },
-  {
-    "level": "INFO",
-    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":65,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
-    "file": "/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/CMakeLists.txt",
-    "tag": "debug|x86"
-  },
-  {
-    "level": "INFO",
-    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compiler ABI info - done\",\"type\":\"message\"}\n",
-    "file": "/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/CMakeLists.txt",
-    "tag": "debug|x86"
-  },
-  {
-    "level": "INFO",
-    "message": "Detecting C compiler ABI info - done",
-    "file": "/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/CMakeLists.txt",
-    "tag": "debug|x86"
-  },
-  {
-    "level": "INFO",
-    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compile features\",\"type\":\"message\"}\n",
-    "file": "/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/CMakeLists.txt",
-    "tag": "debug|x86"
-  },
-  {
-    "level": "INFO",
-    "message": "Detecting C compile features",
-    "file": "/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/CMakeLists.txt",
-    "tag": "debug|x86"
-  },
-  {
-    "level": "INFO",
-    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":96,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
-    "file": "/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/CMakeLists.txt",
-    "tag": "debug|x86"
-  },
-  {
-    "level": "INFO",
-    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":126,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
-    "file": "/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/CMakeLists.txt",
-    "tag": "debug|x86"
-  },
-  {
-    "level": "INFO",
-    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":155,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
-    "file": "/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/CMakeLists.txt",
-    "tag": "debug|x86"
-  },
-  {
-    "level": "INFO",
-    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compile features - done\",\"type\":\"message\"}\n",
-    "file": "/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/CMakeLists.txt",
-    "tag": "debug|x86"
-  },
-  {
-    "level": "INFO",
-    "message": "Detecting C compile features - done",
-    "file": "/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/CMakeLists.txt",
-    "tag": "debug|x86"
-  },
-  {
-    "level": "INFO",
-    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working CXX compiler: /Volumes/Viper/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++\",\"type\":\"message\"}\n",
-    "file": "/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/CMakeLists.txt",
-    "tag": "debug|x86"
-  },
-  {
-    "level": "INFO",
-    "message": "Check for working CXX compiler: /Volumes/Viper/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++",
-    "file": "/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/CMakeLists.txt",
-    "tag": "debug|x86"
-  },
-  {
-    "level": "INFO",
-    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":184,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
-    "file": "/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/CMakeLists.txt",
-    "tag": "debug|x86"
-  },
-  {
-    "level": "INFO",
-    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working CXX compiler: /Volumes/Viper/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ -- works\",\"type\":\"message\"}\n",
-    "file": "/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/CMakeLists.txt",
-    "tag": "debug|x86"
-  },
-  {
-    "level": "INFO",
-    "message": "Check for working CXX compiler: /Volumes/Viper/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ -- works",
-    "file": "/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/CMakeLists.txt",
-    "tag": "debug|x86"
-  },
-  {
-    "level": "INFO",
-    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compiler ABI info\",\"type\":\"message\"}\n",
-    "file": "/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/CMakeLists.txt",
-    "tag": "debug|x86"
-  },
-  {
-    "level": "INFO",
-    "message": "Detecting CXX compiler ABI info",
-    "file": "/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/CMakeLists.txt",
-    "tag": "debug|x86"
-  },
-  {
-    "level": "INFO",
-    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":211,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
-    "file": "/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/CMakeLists.txt",
-    "tag": "debug|x86"
-  },
-  {
-    "level": "INFO",
-    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compiler ABI info - done\",\"type\":\"message\"}\n",
-    "file": "/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/CMakeLists.txt",
-    "tag": "debug|x86"
-  },
-  {
-    "level": "INFO",
-    "message": "Detecting CXX compiler ABI info - done",
-    "file": "/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/CMakeLists.txt",
-    "tag": "debug|x86"
-  },
-  {
-    "level": "INFO",
-    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compile features\",\"type\":\"message\"}\n",
-    "file": "/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/CMakeLists.txt",
-    "tag": "debug|x86"
-  },
-  {
-    "level": "INFO",
-    "message": "Detecting CXX compile features",
-    "file": "/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/CMakeLists.txt",
-    "tag": "debug|x86"
-  },
-  {
-    "level": "INFO",
-    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":237,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
-    "file": "/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/CMakeLists.txt",
-    "tag": "debug|x86"
-  },
-  {
-    "level": "INFO",
-    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":262,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
-    "file": "/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/CMakeLists.txt",
-    "tag": "debug|x86"
-  },
-  {
-    "level": "INFO",
-    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":287,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
-    "file": "/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/CMakeLists.txt",
-    "tag": "debug|x86"
-  },
-  {
-    "level": "INFO",
-    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":311,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
-    "file": "/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/CMakeLists.txt",
-    "tag": "debug|x86"
-  },
-  {
-    "level": "INFO",
-    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compile features - done\",\"type\":\"message\"}\n",
-    "file": "/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/CMakeLists.txt",
-    "tag": "debug|x86"
-  },
-  {
-    "level": "INFO",
-    "message": "Detecting CXX compile features - done",
+    "message": "{\n  \"type\": \"configure\",\n  \"cacheArguments\": [\n    \"\",\n    \"-DCMAKE_CXX_FLAGS\\u003d-frtti -fexceptions\",\n    \"-DCMAKE_FIND_ROOT_PATH\\u003d/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/.cxx/cmake/debug/prefab/x86/prefab\",\n    \"-DCMAKE_BUILD_TYPE\\u003dDebug\",\n    \"-DCMAKE_TOOLCHAIN_FILE\\u003d/Volumes/Viper/Android/sdk/ndk/21.3.6528147/build/cmake/android.toolchain.cmake\",\n    \"-DANDROID_ABI\\u003dx86\",\n    \"-DANDROID_NDK\\u003d/Volumes/Viper/Android/sdk/ndk/21.3.6528147\",\n    \"-DANDROID_PLATFORM\\u003dandroid-19\",\n    \"-DCMAKE_ANDROID_ARCH_ABI\\u003dx86\",\n    \"-DCMAKE_ANDROID_NDK\\u003d/Volumes/Viper/Android/sdk/ndk/21.3.6528147\",\n    \"-DCMAKE_EXPORT_COMPILE_COMMANDS\\u003dON\",\n    \"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\\u003d/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/build/intermediates/cmake/debug/obj/x86\",\n    \"-DCMAKE_MAKE_PROGRAM\\u003d/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/bin/ninja\",\n    \"-DCMAKE_SYSTEM_NAME\\u003dAndroid\",\n    \"-DCMAKE_SYSTEM_VERSION\\u003d19\"\n  ]\n}\n",
     "file": "/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/CMakeLists.txt",
     "tag": "debug|x86"
   },
@@ -379,7 +163,7 @@
   },
   {
     "level": "INFO",
-    "message": "{\"buildFiles\":[{\"isCMake\":true,\"isTemporary\":false,\"sources\":[\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystem.cmake.in\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCCompiler.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-C.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCXXCompiler.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-CXX.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCCompiler.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompilerABI.c\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCXXCompiler.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in\"]},{\"isCMake\":false,\"isTemporary\":false,\"sources\":[\"CMakeLists.txt\",\"/Volumes/Viper/Android/sdk/ndk/21.3.6528147/build/cmake/android.toolchain.cmake\",\"/Volumes/Viper/Android/sdk/ndk/21.3.6528147/build/cmake/platforms.cmake\",\"/Volumes/Viper/Android/sdk/ndk/21.3.6528147/build/cmake/android.toolchain.cmake\"]},{\"isCMake\":false,\"isTemporary\":true,\"sources\":[\".cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake\",\".cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeCCompiler.cmake\",\".cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake\",\".cxx/cmake/debug/x86/CMakeFiles/feature_tests.c\",\".cxx/cmake/debug/x86/CMakeFiles/feature_tests.c\",\".cxx/cmake/debug/x86/CMakeFiles/feature_tests.c\",\".cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeCCompiler.cmake\",\".cxx/cmake/debug/x86/CMakeFiles/feature_tests.cxx\",\".cxx/cmake/debug/x86/CMakeFiles/feature_tests.cxx\",\".cxx/cmake/debug/x86/CMakeFiles/feature_tests.cxx\",\".cxx/cmake/debug/x86/CMakeFiles/feature_tests.cxx\",\".cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake\"]}],\"cmakeRootDirectory\":\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10\",\"cookie\":\"\",\"inReplyTo\":\"cmakeInputs\",\"sourceDirectory\":\"/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app\",\"type\":\"reply\"}\n",
+    "message": "{\"buildFiles\":[{\"isCMake\":true,\"isTemporary\":false,\"sources\":[\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake\",\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake\"]},{\"isCMake\":false,\"isTemporary\":false,\"sources\":[\"CMakeLists.txt\",\"/Volumes/Viper/Android/sdk/ndk/21.3.6528147/build/cmake/android.toolchain.cmake\",\"/Volumes/Viper/Android/sdk/ndk/21.3.6528147/build/cmake/platforms.cmake\"]},{\"isCMake\":false,\"isTemporary\":true,\"sources\":[\".cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake\",\".cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeCCompiler.cmake\",\".cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake\"]}],\"cmakeRootDirectory\":\"/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10\",\"cookie\":\"\",\"inReplyTo\":\"cmakeInputs\",\"sourceDirectory\":\"/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app\",\"type\":\"reply\"}\n",
     "file": "/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/CMakeLists.txt",
     "tag": "debug|x86"
   },

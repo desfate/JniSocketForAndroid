@@ -4,13 +4,15 @@
 #include "com_mtptwo_cppsupport_EchoClientActivity.h"
 #include "socket/socket_engine_android.h"
 #include "utils/utils_android.h"
+#include <android/log.h>
 
 //服务端：启动监听
 //流程:socket()->listen()->accept()->recv()->send()_close()
+extern "C"
 void JNICALL Java_com_mtptwo_cppsupport_EchoServerActivity_nativeStartTcpServer(
         JNIEnv *env, jobject obj, jint port) {
 
-
+    
     InitJNIEnv(env,obj); //初始化
     int serverSocket = NewTcpSocket();
 
@@ -73,6 +75,7 @@ void JNICALL Java_com_mtptwo_cppsupport_EchoServerActivity_nativeStartTcpServer(
 }
 
 //客户端：连接
+extern "C"
 void JNICALL Java_com_mtptwo_cppsupport_EchoClientActivity_nativeStartTcpClient(
         JNIEnv *env, jobject obj, jstring ip, jint port, jstring message) {
 
@@ -119,7 +122,7 @@ void JNICALL Java_com_mtptwo_cppsupport_EchoClientActivity_nativeStartTcpClient(
 }
 }
 
-//启动udp服务端
+extern "C" //启动udp服务端
 void JNICALL Java_com_mtptwo_cppsupport_EchoServerActivity_nativeStartUdpServer(
         JNIEnv *, jobject, jint) {
 }

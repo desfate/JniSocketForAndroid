@@ -7,14 +7,14 @@ arguments :
 -DCMAKE_TOOLCHAIN_FILE=/Volumes/Viper/Android/sdk/ndk/21.3.6528147/build/cmake/android.toolchain.cmake
 -DANDROID_ABI=x86
 -DANDROID_NDK=/Volumes/Viper/Android/sdk/ndk/21.3.6528147
--DANDROID_PLATFORM=android-21
+-DANDROID_PLATFORM=android-19
 -DCMAKE_ANDROID_ARCH_ABI=x86
 -DCMAKE_ANDROID_NDK=/Volumes/Viper/Android/sdk/ndk/21.3.6528147
 -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
 -DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/build/intermediates/cmake/debug/obj/x86
 -DCMAKE_MAKE_PROGRAM=/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/bin/ninja
 -DCMAKE_SYSTEM_NAME=Android
--DCMAKE_SYSTEM_VERSION=21
+-DCMAKE_SYSTEM_VERSION=19
 -B/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/.cxx/cmake/debug/x86
 -GNinja
 jvmArgs : 

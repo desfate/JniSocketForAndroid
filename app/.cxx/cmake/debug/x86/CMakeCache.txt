@@ -21,7 +21,7 @@ ANDROID_ABI:UNINITIALIZED=x86
 ANDROID_NDK:UNINITIALIZED=/Volumes/Viper/Android/sdk/ndk/21.3.6528147
 
 //No help, variable specified on the command line.
-ANDROID_PLATFORM:UNINITIALIZED=android-21
+ANDROID_PLATFORM:UNINITIALIZED=android-19
 
 //No help, variable specified on the command line.
 CMAKE_ANDROID_ARCH_ABI:UNINITIALIZED=x86
@@ -202,10 +202,10 @@ CMAKE_STRIP:FILEPATH=/Volumes/Viper/Android/sdk/ndk/21.3.6528147/toolchains/llvm
 CMAKE_SYSTEM_NAME:UNINITIALIZED=Android
 
 //No help, variable specified on the command line.
-CMAKE_SYSTEM_VERSION:UNINITIALIZED=21
+CMAKE_SYSTEM_VERSION:UNINITIALIZED=19
 
-//The CMake toolchain file
-CMAKE_TOOLCHAIN_FILE:FILEPATH=/Volumes/Viper/Android/sdk/ndk/21.3.6528147/build/cmake/android.toolchain.cmake
+//No help, variable specified on the command line.
+CMAKE_TOOLCHAIN_FILE:UNINITIALIZED=/Volumes/Viper/Android/sdk/ndk/21.3.6528147/build/cmake/android.toolchain.cmake
 
 //If this value is on, makefiles will be generated without the
 // .SILENT directive, and all commands will be echoed to the console
@@ -220,10 +220,10 @@ Project_BINARY_DIR:STATIC=/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid
 Project_SOURCE_DIR:STATIC=/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app
 
 //Path to a library.
-log-lib:FILEPATH=/Volumes/Viper/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/21/liblog.so
+log-lib:FILEPATH=/Volumes/Viper/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19/liblog.so
 
 //Dependencies for the target
-world_LIB_DEPENDS:STATIC=general;/Volumes/Viper/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/21/liblog.so;
+world_LIB_DEPENDS:STATIC=general;/Volumes/Viper/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19/liblog.so;
 
 
 ########################

@@ -1,7 +1,7 @@
 [
 {
   "directory": "/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/.cxx/cmake/debug/x86",
-  "command": "/Volumes/Viper/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=i686-none-linux-android21 --gcc-toolchain=/Volumes/Viper/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/Viper/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dworld_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/world.dir/src/main/cpp/world.cpp.o -c /Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/src/main/cpp/world.cpp",
+  "command": "/Volumes/Viper/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=i686-none-linux-android19 --gcc-toolchain=/Volumes/Viper/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/Viper/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dworld_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/world.dir/src/main/cpp/world.cpp.o -c /Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/src/main/cpp/world.cpp",
   "file": "/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/src/main/cpp/world.cpp"
 }
 ]
