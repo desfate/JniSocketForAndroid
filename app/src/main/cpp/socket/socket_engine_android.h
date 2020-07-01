@@ -25,7 +25,7 @@ static int NewTcpSocket() {
 
     LogMessage("Constructing a new TCP socket...");
     int tcpSocket = socket(PF_INET, SOCK_STREAM, 0);
-
+    LogMessage("Socket is %hu.",tcpSocket);
     if (-1 == tcpSocket) {
         ThrowErrnoException("java/io/IOException", errno);
     }
@@ -69,9 +69,7 @@ static unsigned short GetSocketPort(int sd) {
 
 //监听 listen()
 static void ListenOnSocket( int sd, int backlog) {
-    LogMessage(
-               "Listening on socket with a baklog of  %d pending connections.",
-               backlog);
+    LogMessage("Listening on socket with a baklog of  %d pending connections.",backlog);
 
     //listen()用来等待参数s 的socket 连线. 参数backlog 指定同时能处理的最大连接要求,
     //如果连接数目达此上限则client 端将收到ECONNREFUSED 的错误.

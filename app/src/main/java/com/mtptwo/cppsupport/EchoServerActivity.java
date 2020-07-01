@@ -41,7 +41,7 @@ public class EchoServerActivity extends AbstractEchoActivity {
 		private final int protocol;
 
 		/**
-		 * @param port端口
+		 * @param port
 		 * @param protocol
 		 *            使用的协议
 		 */

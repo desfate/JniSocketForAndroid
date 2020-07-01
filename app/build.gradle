@@ -1,15 +1,14 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 26
+    compileSdkVersion 30
     defaultConfig {
         applicationId "com.mtptwo.cppsupport"
-        minSdkVersion 17
-        targetSdkVersion 26
+        minSdkVersion 19
+        targetSdkVersion 30
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-
         ndk{
             moduleName "libEcho"
             abiFilters "armeabi-v7a","x86"
@@ -20,6 +19,7 @@ android {
                 cppFlags "-frtti -fexceptions"
             }
         }
+
     }
     buildTypes {
         release {
@@ -29,14 +29,15 @@ android {
     }
     externalNativeBuild {
         cmake {
-            path "CMakeLists.txt"
+            path file('CMakeLists.txt')
         }
     }
+    ndkVersion '21.3.6528147'
 }
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support:appcompat-v7:28.0.0'
     implementation 'com.android.support.constraint:constraint-layout:1.0.2'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'

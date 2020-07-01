@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "/Volumes/Viper/Android/sdk/ndk/21.3.6528147/build/cmake/android.toolchain.cmake",
+    "/Volumes/Viper/Android/sdk/ndk/21.3.6528147/build/cmake/platforms.cmake",
+    "/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/.cxx/cmake/debug/x86\" clean"
+  ],
+  "buildTargetsCommand": "/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/.cxx/cmake/debug/x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "world-Debug-x86": {
+      "artifactName": "world",
+      "buildCommand": "/Volumes/Viper/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/.cxx/cmake/debug/x86\" world",
+      "abi": "x86",
+      "output": "/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/build/intermediates/cmake/debug/obj/x86/libworld.so",
+      "runtimeFiles": []
+    }
+  }
+}

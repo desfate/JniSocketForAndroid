@@ -110,6 +110,7 @@ public abstract class AbstractEchoActivity extends Activity implements
 			btnStart.setEnabled(false);
 			// 清空日志
 			tvLog.setText("");
+
 		}
 
 		/* 
