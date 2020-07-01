@@ -76,9 +76,8 @@ void JNICALL Java_com_mtptwo_cppsupport_EchoServerActivity_nativeStartTcpServer(
 
 //客户端：连接
 extern "C"
-void JNICALL Java_com_mtptwo_cppsupport_EchoClientActivity_nativeStartTcpClient(
-        JNIEnv *env, jobject obj, jstring ip, jint port, jstring message) {
-
+void JNICALL Java_com_mtptwo_cppsupport_EchoClientActivity_nativeStartTcpClient(JNIEnv *env, jobject obj, jstring ip, jint port, jstring message) {
+    InitJNIEnv(env,obj);
     int clientSocket = NewTcpSocket();
     if (NULL == env->ExceptionOccurred()) {
         const char* ipAddress = env->GetStringUTFChars(ip, NULL);
