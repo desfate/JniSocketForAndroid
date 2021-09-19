@@ -1,0 +1,3 @@
+/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/.cxx/cmake/debug/x86/CMakeFiles/rebuild_cache.dir
+/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/.cxx/cmake/debug/x86/CMakeFiles/edit_cache.dir
+/Users/aneeq/AndroidStudioProjects/JniSocketForAndroid/app/.cxx/cmake/debug/x86/CMakeFiles/world.dir

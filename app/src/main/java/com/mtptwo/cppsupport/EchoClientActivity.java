@@ -1,6 +1,7 @@
 package com.mtptwo.cppsupport;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.EditText;
 
 public class EchoClientActivity extends AbstractEchoActivity {
@@ -57,6 +58,7 @@ public class EchoClientActivity extends AbstractEchoActivity {
 				nativeStartTcpClient(ip, port, message);
 			} catch (Exception e) {
 				logMessage(e.getMessage());
+
 			}
 			logMessage("Client terminated.");
 		}

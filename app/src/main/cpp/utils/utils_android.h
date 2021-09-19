@@ -13,7 +13,7 @@
 
 #define MAX_LOG_MESSAGE_LENGTH 256
 //MAX data buffer size
-#define MAX_BUFFER_SIZE 80
+#define MAX_BUFFER_SIZE 256
 
 JNIEnv *my_env;
 jobject myobj;
